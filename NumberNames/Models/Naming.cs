@@ -6,8 +6,38 @@ namespace NumberNames.Models
   public class Naming
   {
       private string _input;
-      // private List<List<int>> _chunks = new List<List<int>> {};
       private List<string> _chunks = new List<string> {};
+      private Dictionary<string, string> _digits = new Dictionary<string, string>(){
+        {"1", "one"},
+        {"2", "two"},
+        {"3", "three"},
+        {"4", "four"},
+        {"5", "five"},
+        {"6", "six"},
+        {"7", "seven"},
+        {"8", "eight"},
+        {"9", "nine"},
+      };
+
+      private Dictionary<int, string> _suffixes = new Dictionary<int, string>(){
+        //by index number in the string list
+        {0, "hundred"},
+        {1, "thousand"},
+        {2, "million"},
+        {3, "billion"},
+        {4, "trillion"}
+      };
+
+      private Dictionary<string, string> _tens = new Dictionary<string, string>(){
+        {"2", "twenty"},
+        {"3", "thirty"},
+        {"4", "forty"},
+        {"5", "fifty"},
+        {"6", "sixty"},
+        {"7", "seventy"},
+        {"8", "eighty"},
+        {"9", "ninety"}
+      };
 
       public Naming(string userInput)
       {
@@ -19,39 +49,24 @@ namespace NumberNames.Models
           return _input;
       }
 
-      // public List<List<int>> GetChunks()
-      // {
-      //     Console.WriteLine(_chunks);
-      //     return _chunks;
-      // }
-      //
-      // public void SetChunks()
-      // {
-      //     char[] charSplitInput = _input.ToCharArray();
-      //     int[] splitInput = new int[charSplitInput.Length];
-      //     for (int i = 0; i < charSplitInput.Length; i++)
-      //     {
-      //         splitInput[i] = int.Parse(charSplitInput[i].ToString());
-      //     }
-      //     List<int> newList = new List<int> {};
-      //     List<List<int>> newPlaceholder = new List<List<int>> {};
-		  //     int indexLength = splitInput.Length - 1;
-      //     for (int index = indexLength; index >= 0; index-=1)
-      //     {
-      //         newList.Add(splitInput[index]);
-      //         if ((newList.Count == 3) || (splitInput[index] == splitInput[0]))
-      //         {
-      //           newList.Reverse();
-      //           newPlaceholder.Add(newList);
-      //           newList.Clear();
-      //         }
-      //     }
-      //     _chunks = newPlaceholder;
-      // }
-
       public List<string> GetChunks()
       {
           return _chunks;
+      }
+
+      public string GetDigits(string key)
+      {
+        return _digits[key];
+      }
+
+      public string GetSuffixes(int key)
+      {
+        return _suffixes[key];
+      }
+
+      public string GetTens(string key)
+      {
+        return _tens[key];
       }
 
       public void SetChunks()
