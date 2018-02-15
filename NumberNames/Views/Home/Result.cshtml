@@ -1,0 +1,13 @@
+@{
+  Layout = "_Layout";
+}
+
+<p>You are here</p>
+
+<p>@Model.GetChunks()</p>
+  @foreach (var list in @Model.GetChunks())
+{
+  <p>@list</p>
+
+
+}

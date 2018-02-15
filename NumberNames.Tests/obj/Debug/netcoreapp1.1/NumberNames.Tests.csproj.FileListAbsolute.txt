@@ -1,0 +1,13 @@
+/Users/Guest/Desktop/NumberNames.Solution/NumberNames.Tests/bin/Debug/netcoreapp1.1/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+/Users/Guest/Desktop/NumberNames.Solution/NumberNames.Tests/bin/Debug/netcoreapp1.1/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+/Users/Guest/Desktop/NumberNames.Solution/NumberNames.Tests/bin/Debug/netcoreapp1.1/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+/Users/Guest/Desktop/NumberNames.Solution/NumberNames.Tests/bin/Debug/netcoreapp1.1/NumberNames.Tests.deps.json
+/Users/Guest/Desktop/NumberNames.Solution/NumberNames.Tests/bin/Debug/netcoreapp1.1/NumberNames.Tests.runtimeconfig.json
+/Users/Guest/Desktop/NumberNames.Solution/NumberNames.Tests/bin/Debug/netcoreapp1.1/NumberNames.Tests.runtimeconfig.dev.json
+/Users/Guest/Desktop/NumberNames.Solution/NumberNames.Tests/bin/Debug/netcoreapp1.1/NumberNames.Tests.dll
+/Users/Guest/Desktop/NumberNames.Solution/NumberNames.Tests/bin/Debug/netcoreapp1.1/NumberNames.Tests.pdb
+/Users/Guest/Desktop/NumberNames.Solution/NumberNames.Tests/bin/Debug/netcoreapp1.1/NumberNames.dll
+/Users/Guest/Desktop/NumberNames.Solution/NumberNames.Tests/bin/Debug/netcoreapp1.1/NumberNames.pdb
+/Users/Guest/Desktop/NumberNames.Solution/NumberNames.Tests/obj/Debug/netcoreapp1.1/NumberNames.Tests.AssemblyInfo.cs
+/Users/Guest/Desktop/NumberNames.Solution/NumberNames.Tests/obj/Debug/netcoreapp1.1/NumberNames.Tests.dll
+/Users/Guest/Desktop/NumberNames.Solution/NumberNames.Tests/obj/Debug/netcoreapp1.1/NumberNames.Tests.pdb

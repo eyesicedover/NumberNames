@@ -1,0 +1,8 @@
+/Users/Guest/Desktop/NumberNames.Solution/NumberNames/bin/Debug/netcoreapp1.1/NumberNames.deps.json
+/Users/Guest/Desktop/NumberNames.Solution/NumberNames/bin/Debug/netcoreapp1.1/NumberNames.runtimeconfig.json
+/Users/Guest/Desktop/NumberNames.Solution/NumberNames/bin/Debug/netcoreapp1.1/NumberNames.runtimeconfig.dev.json
+/Users/Guest/Desktop/NumberNames.Solution/NumberNames/bin/Debug/netcoreapp1.1/NumberNames.dll
+/Users/Guest/Desktop/NumberNames.Solution/NumberNames/bin/Debug/netcoreapp1.1/NumberNames.pdb
+/Users/Guest/Desktop/NumberNames.Solution/NumberNames/obj/Debug/netcoreapp1.1/NumberNames.AssemblyInfo.cs
+/Users/Guest/Desktop/NumberNames.Solution/NumberNames/obj/Debug/netcoreapp1.1/NumberNames.dll
+/Users/Guest/Desktop/NumberNames.Solution/NumberNames/obj/Debug/netcoreapp1.1/NumberNames.pdb
