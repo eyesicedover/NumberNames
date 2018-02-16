@@ -19,6 +19,19 @@ namespace NumberNames.Models
         {"9", "nine"},
       };
 
+      private Dictionary<string, string> _teens = new Dictionary<string, string>(){
+        {"10", "ten"},
+        {"11", "eleven"},
+        {"12", "twelve"},
+        {"13", "thirteen"},
+        {"14", "fourteen"},
+        {"15", "fifteen"},
+        {"16", "sixteen"},
+        {"17", "seventeen"},
+        {"18", "eightteen"},
+        {"19", "nineteen"},
+      };
+
       private Dictionary<int, string> _suffixes = new Dictionary<int, string>(){
         //by index number in the string list
         {0, "hundred"},
@@ -67,6 +80,31 @@ namespace NumberNames.Models
       public string GetTens(string key)
       {
         return _tens[key];
+      }
+
+      public bool CheckTeens(string[] array)
+      {
+        if (array[1] == "1")
+        {
+          return true;
+        }
+        else
+        {
+          return false;
+        }
+      }
+
+      public string GetTeens(string[] array)
+      {
+        if (CheckTeens(array) == true)
+        {
+          string teen = array[1] + array[2];
+          return _teens[teen];
+        }
+        else
+        {
+          return "hello";
+        }
       }
 
       public void SetChunks()
